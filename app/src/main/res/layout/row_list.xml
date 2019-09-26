@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgList"
+        android:layout_width="80dp"
+        android:minWidth="80dp"
+        android:maxWidth="80dp"
+        android:layout_height="115dp"
+        android:minHeight="115dp"
+        android:maxHeight="115dp"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingVertical="10dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Haikyuu"
+            android:id="@+id/mangaTitle"
+
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:fontFamily="serif-monospace"
+            android:textAlignment="viewEnd"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chapter 251"
+            android:textSize="13sp"
+            android:textColor="#fff"
+            android:textAlignment="viewEnd"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <TextView
+
+            android:id="@+id/genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sports, Fantasy, Drama, Shounen, Romance, Thriller, Comedy"
+            android:textSize="10sp"
+            android:textAlignment="viewEnd"
+            android:layout_marginBottom="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#fff"
+            />
+
+<!--        <Button-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:text="Read Now"-->
+<!--            android:background="@drawable/rounded"-->
+<!--            android:textSize="13sp"-->
+<!--            android:layout_gravity="end"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>
