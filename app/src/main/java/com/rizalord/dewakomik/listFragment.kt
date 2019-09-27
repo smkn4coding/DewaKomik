@@ -72,7 +72,7 @@ class listFragment : Fragment() {
     private fun fetchJson(rv : RecyclerView){
 
 
-        val url = "http://" + Constants.ip+":80/dewakomikapi/api/manga/"
+        val url = Constants.ip+"api/manga/"
         val request = Request.Builder().url(url).build()
         val client = OkHttpClient()
         client.newCall(request).enqueue(object : Callback {

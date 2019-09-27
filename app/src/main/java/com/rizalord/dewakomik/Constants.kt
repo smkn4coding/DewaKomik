@@ -3,7 +3,7 @@ package com.rizalord.dewakomik
 class Constants {
 
     companion object {
-        public var ip : String = "192.168.0.7"
+        public var ip : String = "http://dewakomik.000webhostapp.com/"
     }
 
 }

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "496309402002",
+    "firebase_url": "https://dewa-komik.firebaseio.com",
+    "project_id": "dewa-komik",
+    "storage_bucket": "dewa-komik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496309402002:android:ca3e2837073539b0be694b",
+        "android_client_info": {
+          "package_name": "com.rizalord.dewakomik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496309402002-388h64ouj6dfvrcpc9g4umirqk52n0ho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rizalord.dewakomik",
+            "certificate_hash": "ae7596ecf3ad153e62d3bcd988e6d08cc82ff498"
+          }
+        },
+        {
+          "client_id": "496309402002-qc9rvbs6s1oh96j3msm3s77o2cr4k59j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATj_JYwR1HV9DR4Un2kmfijnxW-M19RjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496309402002-qc9rvbs6s1oh96j3msm3s77o2cr4k59j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

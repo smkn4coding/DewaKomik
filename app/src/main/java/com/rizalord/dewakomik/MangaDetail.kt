@@ -46,7 +46,7 @@ class MangaDetail : AppCompatActivity() {
             Glide.with(this).load(data.image).into(midImage)
             Glide.with(this).load(data.image).into(bgImage)
             sinopsis.text = data.sinopsis.toString()
-            url = "http://" + Constants.ip+":80/dewakomikapi/api/manga?chaps=" +
+            url =  Constants.ip+"api/manga?chaps=" +
                     data.chapter_id.toString()
         }else{
             supportActionBar?.setTitle(data2.title)
@@ -58,7 +58,7 @@ class MangaDetail : AppCompatActivity() {
             Glide.with(this).load(data2?.image).into(midImage)
             Glide.with(this).load(data2?.image).into(bgImage)
             sinopsis.text = data2.sinopsis?.toString()
-            url = "http://"+ Constants.ip +":80/dewakomikapi/api/manga?chaps=" +
+            url = Constants.ip +"api/manga?chaps=" +
                     data2.chapter_id?.toString()
         }
 

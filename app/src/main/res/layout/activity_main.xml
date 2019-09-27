@@ -106,9 +106,9 @@
         android:background="#282828"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="16dp"
-        app:tabTextColor="#A59797"
+        app:tabTextColor="#817D7D"
         app:tabSelectedTextColor="#fff"
-        app:tabIndicatorColor="#aaa"
+        app:tabIndicatorColor="#817D7D"
         app:tabMode="fixed"/>
 
 <!--    <com.google.android.material.tabs.TabLayout-->

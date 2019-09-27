@@ -72,7 +72,7 @@ class favoriteFragment : Fragment() {
 
             inputKey.hideKeyboard()
 
-            val url = "http://" + Constants.ip + ":80/dewakomikapi/api/manga?title=" + keyword
+            val url = Constants.ip + "api/manga?title=" + keyword
             val request = Request.Builder().url(url).build()
             val client = OkHttpClient()
             client.newCall(request).enqueue(object : Callback{

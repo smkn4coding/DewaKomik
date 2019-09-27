@@ -30,7 +30,7 @@ class ViewImage : AppCompatActivity() {
     }
 
     private fun fetchJson(){
-        val url = "http://" + Constants.ip + ":80/dewakomikapi/api/manga?chap=" +
+        val url = Constants.ip + "api/manga?chap=" +
                 data.toString()
         val request = Request.Builder().url(url).build()
         val client = OkHttpClient()

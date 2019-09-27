@@ -43,7 +43,7 @@ class homeFragment : Fragment() {
 
 
     private fun fetchCarousel(){
-        val url = "http://" + Constants.ip + ":80/dewakomikapi/api/manga?carousel=a"
+        val url = Constants.ip + "api/manga?carousel=a"
         val request = Request.Builder().url(url).build()
         val client = OkHttpClient()
         client.newCall(request).enqueue(object : Callback {
@@ -98,7 +98,7 @@ class homeFragment : Fragment() {
     private fun fetchJson(){
 
 
-        val url = "http://" + Constants.ip + ":80/dewakomikapi/api/manga?latest=a"
+        val url = Constants.ip + "api/manga?latest=a"
         val request = Request.Builder().url(url).build()
         val client = OkHttpClient()
         client.newCall(request).enqueue(object : Callback {
