@@ -123,6 +123,7 @@ class favoriteFragment : Fragment() {
         override fun onBindViewHolder(holder: CustomViewHoler, position: Int) {
             holder.v.mangaTitle.text = home.data.get(position).title.toString()
             holder.v.genre.text = home.data.get(position).genre.toString()
+            holder.v.status.text = home.data.get(position).status.toString()
             Glide.with(holder.v).load(home.data.get(position).image.toString())
                 .into(holder.v.imgList)
 

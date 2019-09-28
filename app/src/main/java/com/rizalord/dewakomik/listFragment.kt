@@ -53,6 +53,7 @@ class listFragment : Fragment() {
 
             holder.v.mangaTitle.text = homefeed.data.get(position).title.toString()
             holder.v.genre.text = homefeed.data.get(position).genre.toString()
+            holder.v.status.text = homefeed.data.get(position).status.toString()
             Glide.with(holder.v).load(homefeed.data.get(position).image.toString())
                 .into(holder.v.imgList)
 
